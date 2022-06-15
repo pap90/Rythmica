@@ -1,0 +1,20 @@
+:root{
+ --f7-theme-color:#0071A2;
+ --f7-navbar-bg-color: #0071A2; /*navbar*/
+ --f7-navbar-link-color:#fff;
+ --f7-navbar-text-color:#fff;
+ --f7-bars-bg-color:#0071A2;/*toolbar*/
+ --f7-block-margin-vertical:20px;
+ --f7-card-footer-border-color:transparent; 
+}
+#info-panel{
+	background-color: #202046;
+	color: #fff;
+	padding: 40px 30px;
+}
+.panel i{
+	color: #123066;
+}
+.panel .list{
+	font-size: 14px;
+}
