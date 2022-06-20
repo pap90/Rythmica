@@ -1,9 +1,9 @@
 :root{
  --f7-theme-color:#0071A2;
- --f7-navbar-bg-color: #0071A2; /*navbar*/
+ --f7-navbar-bg-color: #202046; /*navbar*/
  --f7-navbar-link-color:#fff;
  --f7-navbar-text-color:#fff;
- --f7-bars-bg-color:#0071A2;/*toolbar*/
+ --f7-bars-bg-color:#202046;/*toolbar*/
  --f7-block-margin-vertical:20px;
  --f7-card-footer-border-color:transparent; 
 }
@@ -17,4 +17,35 @@
 }
 .panel .list{
 	font-size: 14px;
+}
+#modal-login .page{
+	background-color: #202046;
+	padding: 15px;
+}
+#modal-login .page-content{
+	border-radius: 15px;
+}
+.img-fluid{
+	max-width: 100%;
+	display: block;
+}
+#checkout .card-content{
+	padding: 10px 5px;
+}
+#checkout .titulo{
+	font-weight: 600;
+	font-size: 16px;
+}
+#checkout .precio{
+	font-weight: 400;
+	font-size: 16px;
+}
+.page{
+	background-image:linear-gradient(#202046, #D04E61);
+}
+.page-content .block-title{
+	color: #fff;
+}
+#info-panel{
+	background-image:linear-gradient(#202046, #D04E61);
 }

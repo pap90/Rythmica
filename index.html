@@ -19,7 +19,7 @@
 			<div id="info-panel">
 				<div class="row">
 					<article class="col-40">
-						<img src="img/logo blanco.png" alt="HTML tutorial" style="width:210px;height:80px;">
+						<img src="img/lgoooo.png" alt="HTML tutorial" style="width:210px;height:80px;">
 					</article>
 					<article class="col-60">
 						<b></b><br>
@@ -32,10 +32,10 @@
 			<div class="list media-list no-margin-top">
   			<ul>
 				<li>
-				  <a href="#" class="item-link item-content">
-					<div class="item-media"><i class="material-icons">folder</i></div>
+				  <a href="/cards/" class="item-link item-content panel-close">
+					<div class="item-media"><i class="material-icons">shopping_bag</i></div>
 					<div class="item-inner">
-					  <div class="item-title">Guardados</div>
+					  <div class="item-title">Tienda</div>
 					</div>
 				  </a>
 				</li>
@@ -48,10 +48,26 @@
 				  </a>
 				</li>
 				<li>
-				  <a href="#" class="item-link item-content">
-					<div class="item-media"><i class="material-icons">mail</i></div>
+				  <a href="/about-us/" class="item-link item-content panel-close">
+					<div class="item-media"><i class="material-icons">help</i></div>
 					<div class="item-inner">
-					  <div class="item-title">Informacion</div>
+					  <div class="item-title">About-Us</div>
+					</div>
+				  </a>
+				</li>
+				<li>
+				  <a href="/mision/" class="item-link item-content panel-close">
+					<div class="item-media"><i class="material-icons">lightbulb</i></div>
+					<div class="item-inner">
+					  <div class="item-title">Mision y vision</div>
+					</div>
+				  </a>
+				</li>
+				<li>
+				  <a href="/terminos/" class="item-link item-content panel-close">
+					<div class="item-media"><i class="material-icons">book</i></div>
+					<div class="item-inner">
+					  <div class="item-title">Terminos y condiciones</div>
 					</div>
 				  </a>
 				</li>
@@ -87,21 +103,17 @@
 				  <div class="block">
 				  
 				  	<div class="row">
-						<article class="col-33">
+						<article class="col-50">
 							<a href="#">
   								<img src="img/Devil_May_Cry_5_Special_Edition_VERGIL_Sound_Selection_Cover.webp" alt="HTML tutorial" style="width:150px;height:150px;">
 							</a>
 						</article> 
-						<article class="col-33">
+						<article class="col-50">
 							<a href="#">
   								<img src="img/Bury_the_Light_cover.webp" alt="HTML tutorial" style="width:150px;height:150px;">
 							</a>
 						</article>
-						<article class="col-33">
-							<a href="#">
-  								<img src="img/ab67616d0000b2738ff64fe4faca2b8f2c79a978.jfif" alt="HTML tutorial" style="width:150px;height:150px;">
-							</a>
-						</article>
+						
 					</div>
 				  
 				  
@@ -109,21 +121,17 @@
 				  <div class="block">
 				  
 				  	<div class="row">
-						<article class="col-33">
+						<article class="col-50">
 							<a href="#">
   								<img src="img/Michael_Jackson_-_Thriller.png" alt="HTML tutorial" style="width:150px;height:150px;">
 							</a>
 						</article> 
-						<article class="col-33">
+						<article class="col-50">
 							<a href="#">
   								<img src="img/chayanne_simplemente.jpg" alt="HTML tutorial" style="width:150px;height:150px;">
 							</a>
 						</article>
-						<article class="col-33">
-							<a href="#">
-  								<img src="img/117571345_294958831601784_5264814177497374732_n.jpg" alt="HTML tutorial" style="width:150px;height:150px;">
-							</a>
-						</article>
+						
 					</div>
 				  
 				  </div>
@@ -135,8 +143,54 @@
 
 			</section>
 		</div>
-		
-	</div>
+		<div class="login-screen modal-in" id="modal-login">
+		  <!-- Default view-page layout -->
+		  <div class="view">
+			<div class="page login-screen-page">
+			  <!-- page-content has additional login-screen content -->
+			  <div class="page-content login-screen-content">
+				<div class="login-screen-title">Rythmica</div>
+				<!-- Login form -->
+				<form id="form-login">
+				  <div class="list">
+					<ul>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label tit">Username</div>
+						  <div class="item-input-wrap">
+							<input type="text" name="username" placeholder="Username" required>
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Password</div>
+						  <div class="item-input-wrap">
+							<input type="password" name="password" placeholder="Password" required>
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list block">
+					<ul>
+					  <li>
+						<a href="#" class="button button-fill" id="btnLogin">Sign In</a>
+					  </li>
+					  <li>
+						<a href="#" class="button login-screen-close">Acceder como invitado</a>
+					  </li>
+					</ul>
+					<div class="block-footer">¿No tenes cuenta?<a href="#">Registrate</a></div>
+				  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		</div><!--login-->
+	</div><!--app-->
 	
 	
 	<script src="js/framework7.bundle.min.js"></script>

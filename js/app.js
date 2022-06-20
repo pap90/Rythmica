@@ -35,11 +35,26 @@ var app = new Framework7({
 		path: '/swiper/',
     	url: 'swiper.html',
     	name: 'swiper',
+  		},
+		{
+		path: '/about-us/',
+    	url: 'about-us.html',
+    	name: 'about-us',
+  		},
+		{
+		path: '/mision/',
+    	url: 'mision.html',
+    	name: 'mision',
+  		},
+		{
+		path: '/terminos/',
+    	url: 'terminos.html',
+    	name: 'terminos',
   		}
 		
 	],
 	dialog: {
-		title: 'RunGran Shop',
+		title: 'Rythmica',
 		buttonOk: 'Aceptar',
   	},
 	popup: {
@@ -65,9 +80,9 @@ $$('#btnLogin').on('click', function (e) {
 	var $valid = $$('#form-login')[0].checkValidity();
 	if ($valid){
         $$('#form-login').trigger('reset');	
-        app.loginScreen.close('#login');
+        app.loginScreen.close('#modal-login');
 		
-		app.dialog.alert('¡ Welcome to Rungran Shop !');
+		app.dialog.alert('¡Bienvenido a Rythmica!');
     }
 	
 });
